@@ -1,0 +1,17 @@
+abstract
+
+Class:
+    > Cannot be instantiated directly; it serves as a blueprint for other classes.
+    > May contain both abstract methods (methods without a body) and non-abstract (fully implemented) methods.
+    > Designed to be extended by subclasses that provide implementations for abstract methods.
+    > Example: abstract class Shape { ... }
+
+Method:
+    > Declared without an implementation (no method body).
+    > Must be in an abstract class.
+    > Any subclass extending the abstract class must override and implement the abstract method.
+    > Example: abstract void draw();
+
+Variable:
+    > Not allowed in Java. Variables cannot be declared as abstract.
+    > Variables in an abstract class can be final, static, or instance variables, but they cannot be abstract.

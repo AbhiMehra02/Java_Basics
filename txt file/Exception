@@ -1,0 +1,11 @@
+                  Object
+                    |
+                Throwable
+    |--------------___-------------| 
+  *Error                          Exception     
+1. Threaddeath                    1. Runtime  ->Arithmetic , ArrayIndex , NUllPointer   
+2. IO Error                       2. SQL
+3.  Virtual Machine               3. IO
+4. Out of Memory                    
+                                  1    -> Unchecked Exception
+                                2 & 3  -> Checked Exception

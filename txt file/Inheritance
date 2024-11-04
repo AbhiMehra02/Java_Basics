@@ -1,0 +1,10 @@
+|                        | public | protected | default | private |
+|------------------------|--------|-----------|---------|---------|
+| Same Class             | Yes    | Yes       | Yes     | Yes     |
+| Same Package           | Yes    | Yes       | Yes     | No      |
+| Same Package           | Yes    | Yes       | Yes     | No      |
+| (non-subclass)         |        |           |         |         |
+| Different Package      | Yes    | Yes       | No      | No      |
+| (subclass)             |        |           |         |         |
+| Different Package      | Yes    | No        | No      | No      |
+| (non-subclass)         |        |           |         |         |

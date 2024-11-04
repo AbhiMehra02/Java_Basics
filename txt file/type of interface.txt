@@ -1,0 +1,23 @@
+            Type of Interface
+
+1. Normal     2. Functional/SAM        3. Marker
+
+ex. Normal
+ interface Abs()
+ {
+    two or more than two methods
+ }
+
+ex. SAM: single  abstract method or Functional interface
+
+interface Abc()
+{
+   single method
+}
+
+
+ex. Marker 
+
+interface Abc(){
+   NO methods, to obtain something to compiler
+}

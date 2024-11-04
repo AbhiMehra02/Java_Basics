@@ -1,0 +1,9 @@
+final:
+Variable: Acts as a constant (cannot be reassigned after initialization).
+Method: Prevents method overriding.
+Class: Prevents subclassing (no inheritance).
+
+static:
+Variable: Belongs to the class itself, shared across all instances.
+Method: Belongs to the class itself, can be called without an instance.
+Class: Only nested (inner) classes can be static, not the outermost class. Static nested classes don’t have access to the outer class's instance variables.
